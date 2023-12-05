@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Dado Tea Lunch Special</h1>
+    <p>Monday through Friday</p>
+    <br />
+    <p>11am - 3pm</p>
+    <br />
+    <p>$9.95 plus tax</p>
+    <br />
+    <p>Includes sandwich, snack, and drink.</p>
+    <form>
+      <fieldset>
+        <legend>Ordered Information:</legend>
+        <br />
+        <label for="name"><strong>Name</strong></label
+        ><br />
+        <input type="text" id="name" name="name" /><br /><br />
+        <input type="radio" name="choice" value="here" id="here" />
+        <label for="here">Here</label><br />
+        <input type="radio" name="choice" value="go" id="go" />
+        <label for="go">To go</label><br /><br />
+      </fieldset>
+    </form>
+    <form>
+      <fieldset>
+        <legend>Sandwiches</legend>
+        <br />
+        <label><strong>Monday</strong></label
+        ><br />
+        <input type="radio" id="mozzarella" name="sandwich" value="Sandwich" />
+        <label for="mozzarella">Mozzarella Sandwich</label><br />
+        <input type="radio" id="chicken" name="sandwich" value="Salad" />
+        <label for="chicken">Chicken Salad</label><br /><br />
+        <label><strong>Tuesday</strong></label
+        ><br />
+        <input type="radio" id="greek" name="wrap" value="Salad" />
+        <label for="greek">Greek Salad Wrap</label><br />
+        <input type="radio" id="toto" name="wrap" value="Wrap" />
+        <label for="toto">Toto Warp</label><br /><br />
+        <label><strong>Wedneday</strong></label
+        ><br />
+        <input type="radio" id="pepper" name="recipe3" value="Hummus" />
+        <label for="pepper">Red Pepper Hummus</label><br />
+        <input type="radio" id="turkey" name="recipe3" value="Turkey" />
+        <label for="turkey">Roasted Turkey</label><br /><br />
+        <label><strong>Thursday</strong></label
+        ><br />
+        <input type="radio" id="carrot" name="recipe4" value="Carrot" />
+        <label for="carrot">Carrot-Ginger Hummus Wrap</label><br />
+        <input type="radio" id="egg" name="recipe4" value="Salad" />
+        <label for="egg">Egg Salad</label><br /><br />
+        <label><strong>Friday</strong></label
+        ><br />
+        <input type="radio" id="dado" name="recipe5" value="Wrap" />
+        <label for="dado">Dado Wrap</label><br />
+        <input type="radio" id="tuna" name="recipe5" value="Tuna" />
+        <label for="tuna">Tuna Salad</label><br /><br />
+        <hr />
+        <br />
+        <input type="checkbox" id="bread" name="bread" value="Bread" />
+        <label for="bread">Gluten Free Bread (75&cent extra)</label><br /><br />
+      </fieldset>
+    </form>
+    <form>
+      <fieldset>
+        <legend>Snacks</legend>
+        <br />
+        <label><strong>Snacks</strong></label
+        ><br />
+        <input type="radio" id="apple" name="snacks" value="Snacks" />
+        <label for="apple">Apple</label><br />
+        <input type="radio" id="banana" name="snacks" value="Snacks" />
+        <label for="banana">Banana</label><br />
+        <input type="radio" id="potato" name="snacks" value="Snacks" />
+        <label for="potato">Potato Chips</label><br /><br />
+      </fieldset>
+    </form>
+    <form>
+      <fieldset>
+        <legend>Drinks</legend>
+        <br />
+        <label><strong>Drinks</strong></label
+        ><br />
+        <select name="drinks" id="drinks">
+          <option value="cola">Coca Cola</option>
+          <option value="fanta">Fanta</option>
+          <option value="pepsi">Pepski</option>
+          <option value="juice">Orange Juice</option>
+          <option value="beer">Beer</option></select
+        ><br />
+        <hr />
+        <input type="checkbox" id="large" name="large" value="Drink" />
+        <label for="large">Large Drink (75&cent extra)</label><br /><br />
+      </fieldset>
+    </form>
+    <br />
+    <button>Place Order</button>
+  </body>
+</html>
