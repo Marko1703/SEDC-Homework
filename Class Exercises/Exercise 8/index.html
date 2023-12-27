@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="apps.js"></script>
+</head>
+
+<body>
+    <input id="whoInput">
+    <input id="whatInput">
+    <input id="whenInput">
+
+    <div id="story"></div>
+
+    <button onclick="
+     const who = document.getElementById('whoInput').value;
+  const what = document.getElementById('whatInput').value;
+  const when = document.getElementById('whenInput').value;
+  
+  storyTeller(who, what, when);
+  ">
+        Tell Story
+    </button>
+</body>
+
+</html>
